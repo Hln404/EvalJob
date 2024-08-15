@@ -1,0 +1,27 @@
+#objective, #conclusion{
+    background-color: #C9E1E4;
+}
+
+.welcome{
+    padding: 0.5rem 0 0;
+    color: #1A237E;
+    font-size: 1.8rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.textInfo, h4{
+    width: 50%;
+    margin: 0 0 0 3rem;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.3rem;
+    text-align: justify;
+    padding: 1rem 0 1rem 0;
+    color: #223B6E;
+}
+
+.textImp{
+    color: #005f4b;
+    font-weight: bold;
+    text-decoration:underline;
+}

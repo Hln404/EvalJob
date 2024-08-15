@@ -1,0 +1,30 @@
+.basicNav{
+    display: flex;
+    margin-left: 90%;
+    /* The correct thing would be to apply flex-end or center to justify content,
+    but it didn't work. */
+    gap: 2rem;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 10vh;
+    text-decoration: none;
+}
+
+.communities, .eval, .job{
+    width: 2rem;
+    height: 2.5rem;
+    margin-top: 0.5rem;
+}
+
+.iconName{
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.7rem;
+    text-align: center;
+    font-weight: 400;
+    color: #1A237E;
+}

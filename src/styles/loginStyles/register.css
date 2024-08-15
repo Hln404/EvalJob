@@ -1,0 +1,33 @@
+.register{
+    display: flex;
+    align-items: center;
+    margin-left: 70%;
+    /* The correct thing would be to apply flex-end or center to justify content,
+    but it didn't work. */
+    gap: 1rem;
+}
+
+.registerButton{
+    width: 7rem;
+    height: 2rem;
+    background-color: #00BFA5;
+    color: #1A237E;
+    border: 0;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    padding: 0.5rem;
+    box-shadow: 0.1rem 0.1rem 0.2rem #aec4c7;
+    cursor: pointer;
+}
+
+.registerButton:hover{
+    background-color: #00a189;
+}
+
+.registerButton:active{
+    box-shadow: 0;
+    transform: translateY(0.15rem);
+    transition: 100ms;
+}
