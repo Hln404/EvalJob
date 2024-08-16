@@ -1,10 +1,12 @@
-header {
-    position: fixed;
-    display: flex;
-    height: 10vh;
-    width: 100%;
-    background-color: #E0F7FA;
-    box-shadow: 0.5rem 0.5rem 0.5rem -0.3rem #aec4c7;
-    margin: 0;
-    z-index: 10;
+@media(max-width:1024px){
+    header {
+        position: fixed;
+        display: flex;
+        height: 10vh;
+        width: 100%;
+        background-color: #E0F7FA;
+        box-shadow: 0.5rem 0.5rem 0.5rem -0.3rem #aec4c7;
+        margin: 0;
+        z-index: 10;
+    }
 }

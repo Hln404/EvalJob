@@ -12,8 +12,8 @@ const [Objective, Content, Conclusion] = [
     <section id="content">
         <p className="textInfo">
             Here, you’ll find honest employee reviews about their experiences at different companies. 
-            We share details about work schedules, salaries, hours, and more. 
-            Our users have the opportunity to contribute their own reviews, 
+            You can share details about work schedules, salaries and more non-confidential information. 
+            Our users have the opportunity to contribute their own opinions, 
             helping other professionals find the work environment that best aligns with their expectations and needs.
         </p>
     </section>,
@@ -21,9 +21,9 @@ const [Objective, Content, Conclusion] = [
         <p className="textInfo">
         Browse EvalJob to better understand the dynamics of the job market and make smarter, 
         more confident decisions about your career.
+        </p>
         <p className="textImp">
             Evaluate. Discover. Decide with confidence.
-        </p>
         </p>
     </section>
 ];

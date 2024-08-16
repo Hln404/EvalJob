@@ -11,4 +11,5 @@
 #picMain > img{
     height: 500px;
     width: 500px;
+    pointer-events: none;
 }

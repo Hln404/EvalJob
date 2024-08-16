@@ -7,15 +7,15 @@ but I think it's a lot of work for nothing, I could be wrong. */
 function BasicNav(){
     return(
         <section className='basicNav'>
-            <a href='' className='icon'>
+            <a href='/groups-and-communities' className='icon'>
                 <img src='/images/icons/CommunitiesIcon.svg' className='communities' alt='Groups Icon' draggable={false}/>
                 <h2 className='iconName'>Groups</h2>
             </a>
-            <a href='' className='icon'>
+            <a href='/evaluations' className='icon'>
                 <img src='/images/icons/EvalIcon.svg' className='eval' alt='Eval Icon' draggable={false}/>
                 <h2 className='iconName'>Eval</h2>
             </a>
-            <a href='' className='icon'>
+            <a href='/job-vacancies' className='icon'>
                 <img src='/images/icons/JobIcon.svg' className='job' alt='Job Icon' draggable={false}/>
                 <h2 className='iconName'>Job</h2>
             </a>

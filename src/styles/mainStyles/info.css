@@ -21,6 +21,12 @@
 }
 
 .textImp{
+    width: 50%;
+    margin: 0 0 0 3rem;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.3rem;
+    text-align: justify;
+    padding: 0 0 1rem 0;
     color: #005f4b;
     font-weight: bold;
     text-decoration:underline;
